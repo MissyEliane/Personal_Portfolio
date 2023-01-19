@@ -1,0 +1,158 @@
+@media only screen and (min-width: 320px) and
+(max-width: 479px) {}
+
+@media only screen and (min-width: 480px) and
+(max-width: 767px) {
+
+    .logo {
+        display: inline-block;
+        margin-top: 20px;
+        margin-left: 10px;
+        font-size: 0.8rem;
+        cursor: none;
+      }
+
+.nav__list {
+    display: none;
+}
+
+.header__intro {
+    font-weight:600;
+    font-size: 2em;
+}
+
+.header__pg {
+    margin-left: 100px;
+    font-size: 1.5em;
+}
+
+.toggle-button {
+    display: block;
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header__section {
+    width: 100%;
+  }
+
+  .first__img {
+    width: 200px;
+    height: 200px;
+    border-radius: 500px;
+    margin-top: 50px;
+    margin-left: 200px;
+  }
+
+  .paragraph {
+    margin: auto;
+    font-size: 1.8vw;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    line-height: 30px;
+    width: 100%;
+    text-align:center;
+  }
+
+  .skill-count1 {
+    font-size: 0.8em;
+  }
+
+  .wrapper {
+    margin: auto;
+  }
+
+  .project__text {
+    font-size: 1.3rem;
+  text-align: center;
+  line-height: 40px;
+}
+
+.project__text2 {
+    font-size: 0.9rem;
+}
+
+  .project__contents {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .contact__form {
+    margin-left: 250px;
+}
+
+.send__btn {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 70px;
+  cursor:none;
+}
+
+.git__btn {
+    padding: 10px 15px;
+    margin-top: 10px;
+    /*width: 200px;
+    height: 50px;*/
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 0.7rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+.live__btn {
+    padding: 10px 15px;
+    margin-top: 10px;
+  /*width: 100px;
+  height: 30px;
+  padding: 15px;
+  box-sizing:unset;*/
+  border-radius: 10px;
+  font-size: 0.8rem;
+  font-weight: 400;
+  cursor: none;
+}
+
+.div__btn {
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+  }
+
+  .contact__text1 {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
+
+.contact__text2 {
+   text-align: center;
+   margin-bottom: 30px;
+   font-size: 0.9rem;
+}
+
+.contact_btn {
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight:normal;
+    font-size: 0.8rem;
+    cursor: none;
+}
+
+}
+
+@media only screen and (min-width: 768px) and
+(max-width: 979px) {}
+
+@media only screen and (min-width: 980px) and
+(max-width: 1024px) {}
